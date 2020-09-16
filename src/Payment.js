@@ -75,7 +75,7 @@ function Payment() {
           type: "EMPTY_BASKET",
         });
 
-        // history.replace('/orders')
+        history.replace('/orders')
       });
   };
 

@@ -2,6 +2,8 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")("sk_test_51HRxtaGvIOY5nar6ABo9E2YoYhsoWisRe2magJEyEkhkAuWL90AZXuQVC9fg1mUarcTcd7qwBN6YihlJOTV2z1e4003PnceGPZ");
+// TO MAKE IT WORK NOT WITH FAKE DATA --- REPLACE SK TEST BY REAL ONE
+
 
 // API
 
