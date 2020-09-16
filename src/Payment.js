@@ -123,8 +123,8 @@ function Payment() {
           </div>
           <div className="payment__details">
             {/* STRIPE MAGIC */}
-            <form onSubmit={handleSubmit} onChange={handleChange} action="">
-              <CardElement />
+            <form onSubmit={handleSubmit}  action="">
+              <CardElement onChange={handleChange} />
               <div className="payment__priceContainer">
                 <CurrencyFormat
                   renderText={(value) => <h3>Order Total: {value}</h3>}
