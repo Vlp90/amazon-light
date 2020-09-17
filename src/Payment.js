@@ -8,6 +8,8 @@ import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
 import axios from "./axios";
 import { db } from "./firebase";
+import { Button } from "@material-ui/core";
+
 
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -139,9 +141,9 @@ function Payment() {
                   thousandSeparator={true}
                   prefix={"$"}
                 />
-                <button disabled={processing || disabled || succeeded}>
+                <Button disabled={processing || disabled || succeeded}>
                   <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
-                </button>
+                </Button>
               </div>
 
               {/* Errors */}

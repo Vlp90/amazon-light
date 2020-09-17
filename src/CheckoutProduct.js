@@ -1,6 +1,8 @@
 import React from "react";
 import "./CheckoutProduct.css";
 import { useStateValue } from "./StateProvider";
+import { Button } from "@material-ui/core";
+
 
 function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -30,8 +32,10 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
             ))}
         </p>
         {!hideButton && (
-                    <button onClick={removeFromBasket}>Remove from Basket</button>
-                )}
+          <div className="checkoutProduct__button">
+            <Button onClick={removeFromBasket}>Remove from Basket</Button>
+          </div>
+        )}
       </div>
     </div>
   );
