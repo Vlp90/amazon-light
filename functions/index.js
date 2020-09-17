@@ -1,9 +1,9 @@
 const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
-const stripe = require("stripe")("sk_test_51HRxtaGvIOY5nar6ABo9E2YoYhsoWisRe2magJEyEkhkAuWL90AZXuQVC9fg1mUarcTcd7qwBN6YihlJOTV2z1e4003PnceGPZ");
-// TO MAKE IT WORK NOT WITH FAKE DATA --- REPLACE SK TEST BY REAL ONE
-
+const stripe = require("stripe")(
+  "sk_test_51HRxtaGvIOY5nar6ABo9E2YoYhsoWisRe2magJEyEkhkAuWL90AZXuQVC9fg1mUarcTcd7qwBN6YihlJOTV2z1e4003PnceGPZ"
+);
 
 // API
 
@@ -37,4 +37,4 @@ app.post("/payments/create", async (request, response) => {
 exports.api = functions.https.onRequest(app);
 
 // Example endpoint
-//http://localhost:5001/stripe-c7cb3/us-central1/api
+// http://localhost:5001/challenge-4b2b2/us-central1/api
