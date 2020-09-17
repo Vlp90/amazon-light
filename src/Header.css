@@ -9,7 +9,7 @@
 
 }
 
-.header__nav > a {
+.header__nav>a {
   text-decoration: none;
 }
 
@@ -54,22 +54,48 @@
 }
 
 .header__optionLineOne {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .header__optionLineTwo {
-    font-size: 13px;
-    font-weight: 700;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .header__optionBasket {
-    color: white;
-    display: flex;
-    align-items: center;
+  color: white;
+  display: flex;
+  align-items: center;
 
 }
 
 .header__optionBasketCount {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 550px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height:134px;
+    width: 100%;
+  
+  }
+
+  .header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  .header__search {
+    width: 96%;
+  }
+
+  .header__logo {
+    /* margin-bottom: -20px; */
+
+  }
 }
