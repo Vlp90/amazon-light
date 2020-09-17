@@ -26,7 +26,7 @@ function Home() {
           <Product
             id="45871947"
             title="AORUS 15G (XB) Performance Gaming Laptop, 15.6-inch FHD 240Hz IPS, GeForce RTX 2070 Super Max-Q, 10th Gen Intel i7-10875H, 16GB DDR4, 512GB NVMe SSD"
-            price={2299}
+            price={2299.00}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81ZlxvmpbRL._AC_SL1500_.jpg"
           />
@@ -60,7 +60,7 @@ function Home() {
           <Product
             id="45611289"
             title="SONY PlayStation 4 Slim 1TB Console, Light & Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music & More"
-            price={399}
+            price={399.00}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/61OL2zIliML._SL1500_.jpg"
           />
@@ -77,7 +77,7 @@ function Home() {
           <Product
             id="49538094"
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239}
+            price={239.00}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
