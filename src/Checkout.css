@@ -20,3 +20,15 @@
     padding: 10px 0 0 10px;
     font-size: 16px;
 }
+
+
+@media (max-width: 750px) {
+    .checkout {
+      display: flex;
+      flex-direction: column;
+  
+    
+    }
+  
+    
+  }

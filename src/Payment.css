@@ -48,3 +48,19 @@
       text-transform: inherit;
       width: 100%;
   }
+
+  @media (max-width: 550px) {
+    .payment__section {
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+  
+    
+    }
+
+    .payment__title {
+      margin-bottom: 20px;
+    }
+  
+    
+  }

@@ -17,3 +17,19 @@
     text-align: right;
   }
   
+
+  @media (max-width: 550px) {
+    .orders {
+  padding: 20px;
+  
+    
+    }
+
+    .order__id {
+      position: initial;
+    }
+  
+  
+  
+    
+  }
