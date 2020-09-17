@@ -17,6 +17,57 @@ function Home() {
 
 <div className="home__row">
           <Product
+            id="78945611"
+            title="39 MMA Boxing Heavy Punching Training Bag with Chains +Handbag Hook+Boxing Gloves+Hands Bandages Kickboxing Muay Thai Training Fitness Workout Set"
+            price={33.99}
+            rating={2}
+            image="https://images-na.ssl-images-amazon.com/images/I/61Jxaih42SL._AC_SL1000_.jpg"
+          />
+          <Product
+            id="45871947"
+            title="AORUS 15G (XB) Performance Gaming Laptop, 15.6-inch FHD 240Hz IPS, GeForce RTX 2070 Super Max-Q, 10th Gen Intel i7-10875H, 16GB DDR4, 512GB NVMe SSD"
+            price={2299.00}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81ZlxvmpbRL._AC_SL1500_.jpg"
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="36481254"
+            title="Teamgee H5 37 Electric Skateboard, 22 MPH Top Speed, 760W Dual Motor, 11 Miles Range, 14.5 Lbs, 10 Layers Maple Longboard with Wireless Remote Control"
+            price={499.99}
+            rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/61J57JHKMJL._AC_SL1000_.jpg"
+          />
+          <Product
+            id="44812589"
+            title="Nissin Top Ramen, Soy Sauce Flavor, The Original Instant Ramen, 3oz. (24-Pack)"
+            price={29.95}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81tMKUKi6TL._SL1500_.jpg"
+          />
+          <Product
+            id="49781223"
+            title="Lean UX: Designing Great Products with Agile Teams Hardcover – October 25, 2016 "
+            price={31.48}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/71xdd+P4SML.jpg"
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="45611289"
+            title="SONY PlayStation 4 Slim 1TB Console, Light & Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music & More"
+            price={399.00}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/61OL2zIliML._SL1500_.jpg"
+          />
+        </div>
+
+<div className="home__row">
+          <Product
             id="12321341"
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
             price={11.96}
