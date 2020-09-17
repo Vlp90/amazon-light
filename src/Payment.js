@@ -10,7 +10,6 @@ import axios from "./axios";
 import { db } from "./firebase";
 import { Button } from "@material-ui/core";
 
-
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
   const history = useHistory();
@@ -141,9 +140,12 @@ function Payment() {
                   thousandSeparator={true}
                   prefix={"$"}
                 />
-                <Button disabled={processing || disabled || succeeded}>
+                <button disabled={processing || disabled || succeeded}>
                   <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
-                </Button>
+                </button>
+                {/* <Button>
+                 Buy Now
+                </Button> */}
               </div>
 
               {/* Errors */}

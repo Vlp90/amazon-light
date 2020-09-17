@@ -1,66 +1,81 @@
 .payment {
-    background-color: white;
+  background-color: white;
 }
 
 .payment__container > h1 {
-    text-align: center;
-    padding: 10px;
-    font-weight: 400;
-    background-color: rgb(234, 237, 237);
-    border-bottom: 1px solid lightgray;
-  }
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
 
 .payment__container > h1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .payment__section {
-    display: flex;
-    padding: 20px;
-    margin: 0 20px;
-    border-bottom: 1px solid lightgray;
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
 }
 
 .payment__title {
-    flex: 0.2;
+  flex: 0.2;
 }
 
-.payment__address, .payment__items, .payment__details {
-    flex: 0.8;
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8;
 }
-  
+
 .payment__details > form {
-    max-width: 400px;
+  max-width: 400px;
+}
+
+.payment__details > h3 {
+  padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 5px;
+  text-transform: inherit;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  cursor: pointer;
+}
+
+.payment__details > form > div > button:hover {
+  background-color: whitesmoke;
+}
+
+@media (max-width: 550px) {
+  .payment__section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
   }
 
-  .payment__details > h3 {
-    padding-bottom: 20px;
+  .payment__title {
+    margin-bottom: 20px;
   }
-
-
-  .payment__details > form > div > button {
-    background-color: #f0c14b;
-      border: 1px solid;
-      margin-top: 10px;
-      border-color: #a88734 #9c7e31 #846a29;
-      color: #111;
-      padding: 5px;
-      text-transform: inherit;
-      width: 100%;
-  }
-
-  @media (max-width: 550px) {
-    .payment__section {
-      display: flex;
-      flex-direction: column;
-      /* align-items: center; */
-  
-    
-    }
-
-    .payment__title {
-      margin-bottom: 20px;
-    }
-  
-    
-  }
+}
