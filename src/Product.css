@@ -23,13 +23,19 @@
     margin-bottom: 15px;
   }
 
-  .product>button {
+  .product__button > button {
       background-color: #f0c14b;
       border: 1px solid;
       margin-top: 10px;
       border-color: #a88734 #9c7e31 #846a29;
       color: #111;
       padding: 5px;
+      text-transform: inherit;
+      /* border-radius: 0px; */
+  }
+
+  .product > a {
+    text-decoration: none;
   }
 
   .product__price {

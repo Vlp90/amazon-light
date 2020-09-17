@@ -1,11 +1,14 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
+import { Link } from "react-router-dom";
+import { Button } from "@material-ui/core";
+
 
 function Product({ id, title, image, price, rating }) {
-  const [{basket}, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
 
-//   console.log("this is the basket--------------", basket)
+  //   console.log("this is the basket--------------", basket)
 
   const addToBasket = () => {
     // dispatch the items into the datalayer
@@ -39,7 +42,11 @@ function Product({ id, title, image, price, rating }) {
         </div>
       </div>
       <img src={image} alt="" />
-      <button onClick={addToBasket}>Add to basket</button>
+      <Link to={!user && "/login"}>
+      <div className="product__button">
+        <Button onClick={addToBasket}>Add to basket</Button>
+      </div>
+      </Link>
     </div>
   );
 }
