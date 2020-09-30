@@ -25,7 +25,7 @@ function Home() {
           />
           <Product
             id="45871947"
-            title="AORUS 15G (XB) Performance Gaming Laptop, 15.6-inch FHD 240Hz IPS, GeForce RTX 2070 Super Max-Q, 10th Gen Intel i7-10875H, 16GB DDR4, 512GB NVMe SSD"
+            title="AORUS 15G (XB) Performance Gaming Laptop, 15.6-inch FHD 240Hz IPS, GeForce RTX 2070 Super Max-Q, 10th Gen Intel i7-10875H"
             price={2299.00}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81ZlxvmpbRL._AC_SL1500_.jpg"
@@ -35,7 +35,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="36481254"
-            title="Teamgee H5 37 Electric Skateboard, 22 MPH Top Speed, 760W Dual Motor, 11 Miles Range, 14.5 Lbs, 10 Layers Maple Longboard with Wireless Remote Control"
+            title="Teamgee H5 37 Electric Skateboard, 22 MPH Top Speed, 760W Dual Motor, 11 Miles Range"
             price={499.00}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/61J57JHKMJL._AC_SL1000_.jpg"
